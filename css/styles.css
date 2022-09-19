@@ -649,7 +649,7 @@ address {
 }
 
 .footer-container-right {
-  margin-right: 93px;
+  margin-right: auto;
 }
 .socials-title {
   margin-bottom: 20px;
@@ -686,8 +686,9 @@ address {
 .socials-icon {
   fill: currentColor;
 }
-.subscription {
-  margin-right: auto;
+.subscription-form {
+  display: flex;
+  gap: 12px;
 }
 
 .subscription-label {
@@ -706,7 +707,7 @@ address {
 .subscription-input {
   width: 358px;
   height: 50px;
-  margin-right: 12px;
+
   background-color: var(--secondary-bg-color);
   border: 1px solid rgb(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -838,7 +839,9 @@ address {
   display: block;
   width: 100%;
 }
-
+.register-label:not(:last-child) {
+  margin-bottom: 10px;
+}
 .register-element {
   display: block;
   margin-bottom: 4px;
@@ -855,7 +858,6 @@ address {
   height: 40px;
   padding-left: 42px;
   padding-right: 30px;
-  margin-bottom: 10px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
